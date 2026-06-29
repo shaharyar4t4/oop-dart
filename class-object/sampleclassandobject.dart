@@ -11,7 +11,6 @@ class Sampleclassandobject {
   void student(){
     print("this is student detial...");
   }
-
 }
 
   void main(){
