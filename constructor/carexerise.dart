@@ -4,10 +4,12 @@ class Carexerise {
   int price;
   String color;
 
+  // parameterized constructor
   Carexerise(this.brand, this.model, this.price, this.color);
 }
 
 void main() {
+  // create the constructor object..
   Carexerise cardetial = Carexerise("BMW", 526697, 25800000, "Red");
   Carexerise cardetialtwo = Carexerise("Honda", 526697, 25800000, "black");
   Carexerise cardetialthree = Carexerise(
