@@ -12,6 +12,12 @@ class ProductAssignment {
     : pName = "Macbook",
       pPrice = 12500000.00,
       pCateg = "Laptop";
+
+  void showDetial() {
+    print("Name: $pName");
+    print("Price: $pPrice");
+    print("Category: $pCateg");
+  }
 }
 
 void main() {
@@ -20,20 +26,23 @@ void main() {
     1700,
     "Black travel bag",
   );
-  print(product.pName);
-  print(product.pCateg);
-  print(product.pPrice);
+  product.showDetial();
+  // print(product.pName);
+  // print(product.pCateg);
+  // print(product.pPrice);
 
   print("\n");
 
   ProductAssignment productdisscont = ProductAssignment.discount();
-  print(productdisscont.pName);
-  print(productdisscont.pPrice);
-  print(productdisscont.pCateg);
+  productdisscont.showDetial();
+  // print(productdisscont.pName);
+  // print(productdisscont.pPrice);
+  // print(productdisscont.pCateg);
 
   print("\n");
   ProductAssignment productPremin = ProductAssignment.premium();
-  print(productPremin.pName);
-  print(productPremin.pPrice);
-  print(productPremin.pCateg);
+  productPremin.showDetial();
+  // print(productPremin.pName);
+  // print(productPremin.pPrice);
+  // print(productPremin.pCateg);
 }
