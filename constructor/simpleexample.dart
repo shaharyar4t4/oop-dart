@@ -1,6 +1,7 @@
 class Simpleexample {
   // the constructor is mention below 
   // constructor is not create automatically object while it's object intiallized..
+  // this defualt constructor..
   Simpleexample() {
     print("Laptop created..");
   }

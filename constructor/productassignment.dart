@@ -3,7 +3,9 @@ class ProductAssignment {
   double pPrice;
   String pCateg;
 
+  // good example of Parmeterized constuctor...
   ProductAssignment(this.pName, this.pPrice, this.pCateg);
+  // good a example of Named constructor...
   ProductAssignment.discount()
     : pName = "Mobile",
       pPrice = 25000.00,
