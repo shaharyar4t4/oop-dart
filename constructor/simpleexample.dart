@@ -8,7 +8,7 @@ class Simpleexample {
 }
 
 void main() {
-  // the new keyword is not add on..
+  // the "new" keyword is not add on..
   Simpleexample expone = Simpleexample();
   Simpleexample exptwo = Simpleexample();
 
