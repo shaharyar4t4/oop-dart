@@ -5,7 +5,7 @@ class Constconstructorexp {
   // final it is change the at time of RunTime...
   final String name;
   // final int age;
-  Constconstructorexp(this.name);
+  const Constconstructorexp(this.name);
   void display() {
     print("Your Name: " + name);
     // print("Your Age: " age);
@@ -13,6 +13,10 @@ class Constconstructorexp {
 }
 
 void main() {
-  Constconstructorexp std = new Constconstructorexp("Shaharyar");
+  const Constconstructorexp std = Constconstructorexp("Shaharyar");
   std.display();
+
+  // important point 
+  // 1. constructor bnata va hum start me const use karya ga..
+  // 2. jab hum object call karta ha is me bha start me const ka keyword use karya ga.. 
 }
