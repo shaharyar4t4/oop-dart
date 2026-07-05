@@ -44,7 +44,7 @@ void main(){
   emds.empName = "Shaharyar";
   print("Your name: "+emds.empName);
   emds.empSalary = 25000.0;
-  print("Your Salary"+ emds.empSalary.toString());
+  print("Your Salary: "+ emds.empSalary.toString());
   emds.empdepar = "IT";
   print("Your Department: "+ emds.empdepar);
 }
