@@ -25,3 +25,6 @@ void main(){
   Examplecode empx = cat();
   empx.sound();
 }
+
+// upcasting => child object ko parent ko reference me store karta ha  like (Dog <--- Examplecode)
+// Dynamic Dispatch => Method ka decision hata kar (runtime par hota hai)
