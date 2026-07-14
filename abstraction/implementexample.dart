@@ -5,7 +5,7 @@ abstract class Implementexample {
 
 class Animal implements Implementexample {
   // implements is nothing to inherit the to parent classes..
-  // you make mutliple mehtod mutliple itself.
+  // you make mutliple mehtod by itself.
   @override
 
   void sound() {

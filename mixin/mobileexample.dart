@@ -9,7 +9,7 @@ mixin MusicPlayer {
     print("Playing Music");
   }
 }
-
+// just call all mixin in one class 
 class Mobile with Camera, MusicPlayer {}
 
 void main() {
