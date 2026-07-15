@@ -1,12 +1,24 @@
 class Employee {
-  static String CompanyName = "DevPules Technologies";
-  showDetails(String employeeName) {
-    return employeeName;
+  static String companyName = "TechSoft";
+  String empName = "";
+  int empcounter = 0;
+
+  Employee(this.empName) {
+    empcounter++;
+  }
+
+  void showDetial() {
+    print("\n Company Name: " + companyName);
+    print("\n Employee Name: " + empName);
   }
 }
 
 void main() {
-  Employee emp = Employee();
-  print("Your name: " + emp.showDetails("Shaharyar"));
-  print("Company Name: " + Employee.CompanyName);
+  Employee empone = Employee("Shaharyar");
+  Employee emptwo = Employee("Hassan");
+  Employee empthree = Employee("Fahad");
+
+  empone.showDetial();
+  emptwo.showDetial();
+  empthree.showDetial();
 }
