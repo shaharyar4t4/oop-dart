@@ -16,4 +16,9 @@ void main() {
 }
 
 // future.delyed ye mostly use hota ha jab kuch hum dely kar ka show karna hoga...
-// asyna and await mostly ye real world me use hota ha 
+// asyna and await mostly ye real world me use hota ha  
+
+
+// A stronger answer explains:
+// • async changes the function into an asynchronous function that returns a Future.
+// • await pauses only that async function until the Future completes.
